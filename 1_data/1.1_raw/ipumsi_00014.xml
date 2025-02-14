@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook ID="ddi2-e90f6e80-d590-013b-f7f9-0242ac140004-ipumsi_00014.dat-international.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS International Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'ipumsi_00014.dat'</subTitl>
+        <IDNo>ddi2-e90f6e80-d590-013b-f7f9-0242ac140004-ipumsi_00014.dat-international.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2024-09-23">September 23, 2024</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract ipumsi_00014.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2024-09-23">September 23, 2024</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="ipumsi">IPUMS International</serName>
+        <serInfo>DOI:10.18128/D020.V7.5</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2024-09-23"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Geography: Global Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Person Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Demographic Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Disability Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2420">
+        <timePrd date="2000" event="single">2000</timePrd>
+        <nation abbr="br">Brazil</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2651">
+        <timePrd date="2010" event="single">2010</timePrd>
+        <nation abbr="br">Brazil</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2631">
+        <timePrd date="2010" event="single">2010</timePrd>
+        <nation abbr="id">Indonesia</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2897">
+        <timePrd date="2011" event="single">2011</timePrd>
+        <nation abbr="mu">Mauritius</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2893">
+        <timePrd date="2014" event="single">2014</timePrd>
+        <nation abbr="ma">Morocco</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2894">
+        <timePrd date="2014" event="single">2014</timePrd>
+        <nation abbr="mm">Myanmar</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2908">
+        <timePrd date="2013" event="single">2013</timePrd>
+        <nation abbr="sn">Senegal</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2902">
+        <timePrd date="2016" event="single">2016</timePrd>
+        <nation abbr="za">South Africa</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2900">
+        <timePrd date="2012" event="single">2012</timePrd>
+        <nation abbr="sr">Suriname</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2731">
+        <timePrd date="2012" event="single">2012</timePrd>
+        <nation abbr="tz">Tanzania</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2736">
+        <timePrd date="2011" event="single">2011</timePrd>
+        <nation abbr="tt">Trinidad and Tobago</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2901">
+        <timePrd date="2014" event="single">2014</timePrd>
+        <nation abbr="ug">Uganda</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2690">
+        <timePrd date="2011" event="single">2011</timePrd>
+        <nation abbr="uy">Uruguay</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2619">
+        <timePrd date="2009" event="single">2009</timePrd>
+        <nation abbr="vn">Vietnam</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2999">
+        <timePrd date="2019" event="single">2019</timePrd>
+        <nation abbr="vn">Vietnam</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2692">
+        <timePrd date="2000" event="single">2000</timePrd>
+        <nation abbr="zm">Zambia</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2805">
+        <timePrd date="2012" event="single">2012</timePrd>
+        <nation abbr="zw">Zimbabwe</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Brazil 2000
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Brazil 2010
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Indonesia 2010
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Mauritius 2011
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Morocco 2014
+            Note: Age is grouped into categories
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Myanmar 2014
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Senegal 2013
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  South Africa 2016
+            Density of the full data file:  5.8%
+            Density of this extract: 5.8%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Suriname 2012
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Tanzania 2012
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Trinidad and Tobago 2011
+            Density of the full data file:  8.8%
+            Density of this extract: 8.8%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Uganda 2014
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Uruguay 2011
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Vietnam 2009
+            Density of the full data file:  15.0%
+            Density of this extract: 15.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Vietnam 2019
+            Density of the full data file:  8.5%
+            Density of this extract: 8.5%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Zambia 2000
+            Density of the full data file:  10.0%
+            Density of this extract: 10.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  Zimbabwe 2012
+            Density of the full data file:  5.0%
+            Density of this extract: 5.0%
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="yes"><![CDATA[IPUMS International distributes integrated microdata of individuals and households only by agreement of collaborating national statistical offices and under the strictest of confidence. Before data may be distributed to an individual researcher, an electronic license agreement must be signed and approved.
+
+To gain access to the data, a researcher must agree to the following:
+
+(1) Implement security measures to prevent unauthorized access to census microdata. Under IPUMS International agreements with collaborating agencies, redistribution of the data to third parties is prohibited.
+
+(2) Use the microdata for the exclusive purposes of scholarly research and education. Researchers must explicitly agree to not use microdata acquired for any commercial or income-generating venture.
+
+(3) Maintain the confidentiality of persons, households, and other entities. Any attempt to ascertain the identity of persons or households from the microdata is prohibited. Alleging that a person or household has been identified is also prohibited.
+
+(4) Report all publications based on these data to IPUMS International, which will in turn pass the information on to the relevant national statistical agencies.
+
+Once a project is approved, a password is issued and data may be acquired through the Internet. Penalties for violating the license include: revocation of the license, recall of all microdata acquired, filing of a motion of censure to the appropriate professional organizations, and civil prosecution under the relevant national or international statutes.
+
+These safeguards mirror the principles from the Joint ECE/Eurostat Work Session on Statistical Data Confidentiality. Employees of the Minnesota Population Center who work with the census microdata to produce the harmonized database also sign agreements to respect the confidentiality of the data.
+
+IPUMS International works with each country's statistical office to minimize the risk of disclosure of respondent information. The details of the confidentiality protections vary across countries, but in all cases, names and detailed geographic information are suppressed and top-codes are imposed on variables such as income that might identify specific persons. In addition, IPUMS International uses a variety of technical procedures to enhance confidentiality protection. These include the following:
+
+  
+(1) Swapping an undisclosed fraction of records from one administrative district to another to make positive identification of individuals impossible.
+
+(2) Randomizing the placement of households within districts to disguise the order in which individuals were enumerated or the data processed.
+
+(3) Aggregating codes of sensitive characteristics (e.g., grouping together very small ethnic categories)
+
+(4) Top- and bottom-coding continuous variables to prevent identification of extreme cases.
+
+The safety record for public-use census microdata is apparently perfect. In almost four decades of use, there has not been a single verified breach of statistical confidentiality. The measures implemented by the IPUMS International are designed to extend this record.]]></confDec>
+        <contact URI="http://international.ipums.org" affiliation="IPUMS">IPUMS International</contact>
+        <citReq><![CDATA[. Steven Ruggles, Lara Cleveland, Rodrigo Lovaton, Sula Sarkar, Matthew Sobek, Derek Burk, Dan Ehrlich, Quinn Heimann, Jane Lee. Integrated Public Use Microdata Series, International: Version 7.5 [dataset]. Minneapolis, MN: IPUMS, 2024. https://doi.org/10.1 [dataset]. Minneapolis, MN: IPUMS, 2024. https://doi.org/10.18128/D020.V7.5
+
+Researchers should also acknowledge the statistical agency that originally produced the data.
+
+
+The licensing agreement for use of IPUMS International data requires that users supply IPUMS International with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation.
+
+Copies of such materials are also gratefully received at ipums@umn.edu.
+
+Printed matter should be sent to:
+IPUMS International
+Minnesota Population Center
+University of Minnesota
+50 Willey Hall
+225 19th Avenue South
+Minneapolis, MN 55455
+]]></citReq>
+        <conditions><![CDATA[An adapted version of the dataset, harmonized for international comparability, is available from IPUMS International (https://international.ipums.org/international/) under the following conditions:
+
+  
+IPUMS International distributes integrated microdata of individuals and households only by agreement of collaborating national statistical offices and under the strictest of confidence. Before data may be distributed to an individual researcher, an electronic license agreement must be signed and approved.  To gain access to the data, a researcher must agree to the following:
+
+(1) Implement security measures to prevent unauthorized access to census microdata. Under IPUMS International agreements with collaborating agencies, redistribution of the data to third parties is prohibited.
+
+(2) Use the microdata for the exclusive purposes of scholarly research and education. Researchers must explicitly agree to not use microdata acquired for any commercial or income-generating venture.
+
+(3) Maintain the confidentiality of persons, households, and other entities. Any attempt to ascertain the identity of persons or households from the microdata is prohibited. Alleging that a person or household has been identified is also prohibited.
+
+(4) Report all publications based on these data to IPUMS International, which will in turn pass the information on to the relevant national statistical agencies.
+
+Once a project is approved, a password is issued and data may be acquired through the Internet. Penalties for violating the license include: revocation of the license, recall of all microdata acquired, filing of a motion of censure to the appropriate professional organizations, and civil prosecution under the relevant national or international statutes.
+
+These safeguards mirror the principles from the Joint ECE/Eurostat Work Session on Statistical Data Confidentiality. Employees of the Minnesota Population Center who work with the census microdata to produce the harmonized database also sign agreements to respect the confidentiality of the data.
+]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>ipumsi_00014.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="COUNTRY" dcml="0" files="ExtractData" intrvl="discrete" name="COUNTRY">
+  <location EndPos="3" StartPos="1" width="3"/>
+  <labl>Country</labl>
+  <txt><![CDATA[COUNTRY gives the country from which the sample was drawn.  The codes assigned to each country are those used by the UN Statistics Division and the ISO (International Organization for Standardization).]]></txt>
+  <catgry>
+    <catValu>032</catValu>
+    <labl>Argentina</labl>
+  </catgry>
+  <catgry>
+    <catValu>051</catValu>
+    <labl>Armenia</labl>
+  </catgry>
+  <catgry>
+    <catValu>040</catValu>
+    <labl>Austria</labl>
+  </catgry>
+  <catgry>
+    <catValu>050</catValu>
+    <labl>Bangladesh</labl>
+  </catgry>
+  <catgry>
+    <catValu>112</catValu>
+    <labl>Belarus</labl>
+  </catgry>
+  <catgry>
+    <catValu>204</catValu>
+    <labl>Benin</labl>
+  </catgry>
+  <catgry>
+    <catValu>068</catValu>
+    <labl>Bolivia</labl>
+  </catgry>
+  <catgry>
+    <catValu>072</catValu>
+    <labl>Botswana</labl>
+  </catgry>
+  <catgry>
+    <catValu>076</catValu>
+    <labl>Brazil</labl>
+  </catgry>
+  <catgry>
+    <catValu>854</catValu>
+    <labl>Burkina Faso</labl>
+  </catgry>
+  <catgry>
+    <catValu>116</catValu>
+    <labl>Cambodia</labl>
+  </catgry>
+  <catgry>
+    <catValu>120</catValu>
+    <labl>Cameroon</labl>
+  </catgry>
+  <catgry>
+    <catValu>124</catValu>
+    <labl>Canada</labl>
+  </catgry>
+  <catgry>
+    <catValu>152</catValu>
+    <labl>Chile</labl>
+  </catgry>
+  <catgry>
+    <catValu>156</catValu>
+    <labl>China</labl>
+  </catgry>
+  <catgry>
+    <catValu>170</catValu>
+    <labl>Colombia</labl>
+  </catgry>
+  <catgry>
+    <catValu>188</catValu>
+    <labl>Costa Rica</labl>
+  </catgry>
+  <catgry>
+    <catValu>192</catValu>
+    <labl>Cuba</labl>
+  </catgry>
+  <catgry>
+    <catValu>208</catValu>
+    <labl>Denmark</labl>
+  </catgry>
+  <catgry>
+    <catValu>214</catValu>
+    <labl>Dominican Republic</labl>
+  </catgry>
+  <catgry>
+    <catValu>218</catValu>
+    <labl>Ecuador</labl>
+  </catgry>
+  <catgry>
+    <catValu>818</catValu>
+    <labl>Egypt</labl>
+  </catgry>
+  <catgry>
+    <catValu>222</catValu>
+    <labl>El Salvador</labl>
+  </catgry>
+  <catgry>
+    <catValu>231</catValu>
+    <labl>Ethiopia</labl>
+  </catgry>
+  <catgry>
+    <catValu>242</catValu>
+    <labl>Fiji</labl>
+  </catgry>
+  <catgry>
+    <catValu>246</catValu>
+    <labl>Finland</labl>
+  </catgry>
+  <catgry>
+    <catValu>250</catValu>
+    <labl>France</labl>
+  </catgry>
+  <catgry>
+    <catValu>276</catValu>
+    <labl>Germany</labl>
+  </catgry>
+  <catgry>
+    <catValu>288</catValu>
+    <labl>Ghana</labl>
+  </catgry>
+  <catgry>
+    <catValu>300</catValu>
+    <labl>Greece</labl>
+  </catgry>
+  <catgry>
+    <catValu>320</catValu>
+    <labl>Guatemala</labl>
+  </catgry>
+  <catgry>
+    <catValu>324</catValu>
+    <labl>Guinea</labl>
+  </catgry>
+  <catgry>
+    <catValu>332</catValu>
+    <labl>Haiti</labl>
+  </catgry>
+  <catgry>
+    <catValu>340</catValu>
+    <labl>Honduras</labl>
+  </catgry>
+  <catgry>
+    <catValu>348</catValu>
+    <labl>Hungary</labl>
+  </catgry>
+  <catgry>
+    <catValu>352</catValu>
+    <labl>Iceland</labl>
+  </catgry>
+  <catgry>
+    <catValu>356</catValu>
+    <labl>India</labl>
+  </catgry>
+  <catgry>
+    <catValu>360</catValu>
+    <labl>Indonesia</labl>
+  </catgry>
+  <catgry>
+    <catValu>364</catValu>
+    <labl>Iran</labl>
+  </catgry>
+  <catgry>
+    <catValu>368</catValu>
+    <labl>Iraq</labl>
+  </catgry>
+  <catgry>
+    <catValu>372</catValu>
+    <labl>Ireland</labl>
+  </catgry>
+  <catgry>
+    <catValu>376</catValu>
+    <labl>Israel</labl>
+  </catgry>
+  <catgry>
+    <catValu>380</catValu>
+    <labl>Italy</labl>
+  </catgry>
+  <catgry>
+    <catValu>384</catValu>
+    <labl>Ivory Coast</labl>
+  </catgry>
+  <catgry>
+    <catValu>388</catValu>
+    <labl>Jamaica</labl>
+  </catgry>
+  <catgry>
+    <catValu>400</catValu>
+    <labl>Jordan</labl>
+  </catgry>
+  <catgry>
+    <catValu>404</catValu>
+    <labl>Kenya</labl>
+  </catgry>
+  <catgry>
+    <catValu>417</catValu>
+    <labl>Kyrgyz Republic</labl>
+  </catgry>
+  <catgry>
+    <catValu>418</catValu>
+    <labl>Laos</labl>
+  </catgry>
+  <catgry>
+    <catValu>426</catValu>
+    <labl>Lesotho</labl>
+  </catgry>
+  <catgry>
+    <catValu>430</catValu>
+    <labl>Liberia</labl>
+  </catgry>
+  <catgry>
+    <catValu>454</catValu>
+    <labl>Malawi</labl>
+  </catgry>
+  <catgry>
+    <catValu>458</catValu>
+    <labl>Malaysia</labl>
+  </catgry>
+  <catgry>
+    <catValu>466</catValu>
+    <labl>Mali</labl>
+  </catgry>
+  <catgry>
+    <catValu>480</catValu>
+    <labl>Mauritius</labl>
+  </catgry>
+  <catgry>
+    <catValu>484</catValu>
+    <labl>Mexico</labl>
+  </catgry>
+  <catgry>
+    <catValu>496</catValu>
+    <labl>Mongolia</labl>
+  </catgry>
+  <catgry>
+    <catValu>504</catValu>
+    <labl>Morocco</labl>
+  </catgry>
+  <catgry>
+    <catValu>508</catValu>
+    <labl>Mozambique</labl>
+  </catgry>
+  <catgry>
+    <catValu>104</catValu>
+    <labl>Myanmar</labl>
+  </catgry>
+  <catgry>
+    <catValu>524</catValu>
+    <labl>Nepal</labl>
+  </catgry>
+  <catgry>
+    <catValu>528</catValu>
+    <labl>Netherlands</labl>
+  </catgry>
+  <catgry>
+    <catValu>558</catValu>
+    <labl>Nicaragua</labl>
+  </catgry>
+  <catgry>
+    <catValu>566</catValu>
+    <labl>Nigeria</labl>
+  </catgry>
+  <catgry>
+    <catValu>578</catValu>
+    <labl>Norway</labl>
+  </catgry>
+  <catgry>
+    <catValu>586</catValu>
+    <labl>Pakistan</labl>
+  </catgry>
+  <catgry>
+    <catValu>275</catValu>
+    <labl>Palestine</labl>
+  </catgry>
+  <catgry>
+    <catValu>591</catValu>
+    <labl>Panama</labl>
+  </catgry>
+  <catgry>
+    <catValu>598</catValu>
+    <labl>Papua New Guinea</labl>
+  </catgry>
+  <catgry>
+    <catValu>600</catValu>
+    <labl>Paraguay</labl>
+  </catgry>
+  <catgry>
+    <catValu>604</catValu>
+    <labl>Peru</labl>
+  </catgry>
+  <catgry>
+    <catValu>608</catValu>
+    <labl>Philippines</labl>
+  </catgry>
+  <catgry>
+    <catValu>616</catValu>
+    <labl>Poland</labl>
+  </catgry>
+  <catgry>
+    <catValu>620</catValu>
+    <labl>Portugal</labl>
+  </catgry>
+  <catgry>
+    <catValu>630</catValu>
+    <labl>Puerto Rico</labl>
+  </catgry>
+  <catgry>
+    <catValu>642</catValu>
+    <labl>Romania</labl>
+  </catgry>
+  <catgry>
+    <catValu>643</catValu>
+    <labl>Russia</labl>
+  </catgry>
+  <catgry>
+    <catValu>646</catValu>
+    <labl>Rwanda</labl>
+  </catgry>
+  <catgry>
+    <catValu>662</catValu>
+    <labl>Saint Lucia</labl>
+  </catgry>
+  <catgry>
+    <catValu>686</catValu>
+    <labl>Senegal</labl>
+  </catgry>
+  <catgry>
+    <catValu>694</catValu>
+    <labl>Sierra Leone</labl>
+  </catgry>
+  <catgry>
+    <catValu>703</catValu>
+    <labl>Slovak Republic</labl>
+  </catgry>
+  <catgry>
+    <catValu>705</catValu>
+    <labl>Slovenia</labl>
+  </catgry>
+  <catgry>
+    <catValu>710</catValu>
+    <labl>South Africa</labl>
+  </catgry>
+  <catgry>
+    <catValu>728</catValu>
+    <labl>South Sudan</labl>
+  </catgry>
+  <catgry>
+    <catValu>724</catValu>
+    <labl>Spain</labl>
+  </catgry>
+  <catgry>
+    <catValu>729</catValu>
+    <labl>Sudan</labl>
+  </catgry>
+  <catgry>
+    <catValu>740</catValu>
+    <labl>Suriname</labl>
+  </catgry>
+  <catgry>
+    <catValu>752</catValu>
+    <labl>Sweden</labl>
+  </catgry>
+  <catgry>
+    <catValu>756</catValu>
+    <labl>Switzerland</labl>
+  </catgry>
+  <catgry>
+    <catValu>834</catValu>
+    <labl>Tanzania</labl>
+  </catgry>
+  <catgry>
+    <catValu>764</catValu>
+    <labl>Thailand</labl>
+  </catgry>
+  <catgry>
+    <catValu>768</catValu>
+    <labl>Togo</labl>
+  </catgry>
+  <catgry>
+    <catValu>780</catValu>
+    <labl>Trinidad and Tobago</labl>
+  </catgry>
+  <catgry>
+    <catValu>792</catValu>
+    <labl>Turkey</labl>
+  </catgry>
+  <catgry>
+    <catValu>800</catValu>
+    <labl>Uganda</labl>
+  </catgry>
+  <catgry>
+    <catValu>804</catValu>
+    <labl>Ukraine</labl>
+  </catgry>
+  <catgry>
+    <catValu>826</catValu>
+    <labl>United Kingdom</labl>
+  </catgry>
+  <catgry>
+    <catValu>840</catValu>
+    <labl>United States</labl>
+  </catgry>
+  <catgry>
+    <catValu>858</catValu>
+    <labl>Uruguay</labl>
+  </catgry>
+  <catgry>
+    <catValu>862</catValu>
+    <labl>Venezuela</labl>
+  </catgry>
+  <catgry>
+    <catValu>704</catValu>
+    <labl>Vietnam</labl>
+  </catgry>
+  <catgry>
+    <catValu>894</catValu>
+    <labl>Zambia</labl>
+  </catgry>
+  <catgry>
+    <catValu>716</catValu>
+    <labl>Zimbabwe</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="YEAR" dcml="0" files="ExtractData" intrvl="discrete" name="YEAR">
+  <location EndPos="7" StartPos="4" width="4"/>
+  <labl>Year</labl>
+  <txt><![CDATA[YEAR gives the year in which the census or survey was taken. For samples that span years, the midpoint or first year of the interval is reported.]]></txt>
+  <catgry>
+    <catValu>1703</catValu>
+    <labl>1703</labl>
+  </catgry>
+  <catgry>
+    <catValu>1729</catValu>
+    <labl>1729</labl>
+  </catgry>
+  <catgry>
+    <catValu>1787</catValu>
+    <labl>1787</labl>
+  </catgry>
+  <catgry>
+    <catValu>1801</catValu>
+    <labl>1801</labl>
+  </catgry>
+  <catgry>
+    <catValu>1819</catValu>
+    <labl>1819</labl>
+  </catgry>
+  <catgry>
+    <catValu>1845</catValu>
+    <labl>1845</labl>
+  </catgry>
+  <catgry>
+    <catValu>1848</catValu>
+    <labl>1848</labl>
+  </catgry>
+  <catgry>
+    <catValu>1850</catValu>
+    <labl>1850</labl>
+  </catgry>
+  <catgry>
+    <catValu>1851</catValu>
+    <labl>1851</labl>
+  </catgry>
+  <catgry>
+    <catValu>1852</catValu>
+    <labl>1852</labl>
+  </catgry>
+  <catgry>
+    <catValu>1860</catValu>
+    <labl>1860</labl>
+  </catgry>
+  <catgry>
+    <catValu>1861</catValu>
+    <labl>1861</labl>
+  </catgry>
+  <catgry>
+    <catValu>1865</catValu>
+    <labl>1865</labl>
+  </catgry>
+  <catgry>
+    <catValu>1868</catValu>
+    <labl>1868</labl>
+  </catgry>
+  <catgry>
+    <catValu>1870</catValu>
+    <labl>1870</labl>
+  </catgry>
+  <catgry>
+    <catValu>1871</catValu>
+    <labl>1871</labl>
+  </catgry>
+  <catgry>
+    <catValu>1875</catValu>
+    <labl>1875</labl>
+  </catgry>
+  <catgry>
+    <catValu>1880</catValu>
+    <labl>1880</labl>
+  </catgry>
+  <catgry>
+    <catValu>1881</catValu>
+    <labl>1881</labl>
+  </catgry>
+  <catgry>
+    <catValu>1885</catValu>
+    <labl>1885</labl>
+  </catgry>
+  <catgry>
+    <catValu>1890</catValu>
+    <labl>1890</labl>
+  </catgry>
+  <catgry>
+    <catValu>1891</catValu>
+    <labl>1891</labl>
+  </catgry>
+  <catgry>
+    <catValu>1900</catValu>
+    <labl>1900</labl>
+  </catgry>
+  <catgry>
+    <catValu>1901</catValu>
+    <labl>1901</labl>
+  </catgry>
+  <catgry>
+    <catValu>1910</catValu>
+    <labl>1910</labl>
+  </catgry>
+  <catgry>
+    <catValu>1911</catValu>
+    <labl>1911</labl>
+  </catgry>
+  <catgry>
+    <catValu>1960</catValu>
+    <labl>1960</labl>
+  </catgry>
+  <catgry>
+    <catValu>1961</catValu>
+    <labl>1961</labl>
+  </catgry>
+  <catgry>
+    <catValu>1962</catValu>
+    <labl>1962</labl>
+  </catgry>
+  <catgry>
+    <catValu>1963</catValu>
+    <labl>1963</labl>
+  </catgry>
+  <catgry>
+    <catValu>1964</catValu>
+    <labl>1964</labl>
+  </catgry>
+  <catgry>
+    <catValu>1966</catValu>
+    <labl>1966</labl>
+  </catgry>
+  <catgry>
+    <catValu>1968</catValu>
+    <labl>1968</labl>
+  </catgry>
+  <catgry>
+    <catValu>1969</catValu>
+    <labl>1969</labl>
+  </catgry>
+  <catgry>
+    <catValu>1970</catValu>
+    <labl>1970</labl>
+  </catgry>
+  <catgry>
+    <catValu>1971</catValu>
+    <labl>1971</labl>
+  </catgry>
+  <catgry>
+    <catValu>1972</catValu>
+    <labl>1972</labl>
+  </catgry>
+  <catgry>
+    <catValu>1973</catValu>
+    <labl>1973</labl>
+  </catgry>
+  <catgry>
+    <catValu>1974</catValu>
+    <labl>1974</labl>
+  </catgry>
+  <catgry>
+    <catValu>1975</catValu>
+    <labl>1975</labl>
+  </catgry>
+  <catgry>
+    <catValu>1976</catValu>
+    <labl>1976</labl>
+  </catgry>
+  <catgry>
+    <catValu>1977</catValu>
+    <labl>1977</labl>
+  </catgry>
+  <catgry>
+    <catValu>1978</catValu>
+    <labl>1978</labl>
+  </catgry>
+  <catgry>
+    <catValu>1979</catValu>
+    <labl>1979</labl>
+  </catgry>
+  <catgry>
+    <catValu>1980</catValu>
+    <labl>1980</labl>
+  </catgry>
+  <catgry>
+    <catValu>1981</catValu>
+    <labl>1981</labl>
+  </catgry>
+  <catgry>
+    <catValu>1982</catValu>
+    <labl>1982</labl>
+  </catgry>
+  <catgry>
+    <catValu>1983</catValu>
+    <labl>1983</labl>
+  </catgry>
+  <catgry>
+    <catValu>1984</catValu>
+    <labl>1984</labl>
+  </catgry>
+  <catgry>
+    <catValu>1985</catValu>
+    <labl>1985</labl>
+  </catgry>
+  <catgry>
+    <catValu>1986</catValu>
+    <labl>1986</labl>
+  </catgry>
+  <catgry>
+    <catValu>1987</catValu>
+    <labl>1987</labl>
+  </catgry>
+  <catgry>
+    <catValu>1989</catValu>
+    <labl>1989</labl>
+  </catgry>
+  <catgry>
+    <catValu>1990</catValu>
+    <labl>1990</labl>
+  </catgry>
+  <catgry>
+    <catValu>1991</catValu>
+    <labl>1991</labl>
+  </catgry>
+  <catgry>
+    <catValu>1992</catValu>
+    <labl>1992</labl>
+  </catgry>
+  <catgry>
+    <catValu>1993</catValu>
+    <labl>1993</labl>
+  </catgry>
+  <catgry>
+    <catValu>1994</catValu>
+    <labl>1994</labl>
+  </catgry>
+  <catgry>
+    <catValu>1995</catValu>
+    <labl>1995</labl>
+  </catgry>
+  <catgry>
+    <catValu>1996</catValu>
+    <labl>1996</labl>
+  </catgry>
+  <catgry>
+    <catValu>1997</catValu>
+    <labl>1997</labl>
+  </catgry>
+  <catgry>
+    <catValu>1998</catValu>
+    <labl>1998</labl>
+  </catgry>
+  <catgry>
+    <catValu>1999</catValu>
+    <labl>1999</labl>
+  </catgry>
+  <catgry>
+    <catValu>2000</catValu>
+    <labl>2000</labl>
+  </catgry>
+  <catgry>
+    <catValu>2001</catValu>
+    <labl>2001</labl>
+  </catgry>
+  <catgry>
+    <catValu>2002</catValu>
+    <labl>2002</labl>
+  </catgry>
+  <catgry>
+    <catValu>2003</catValu>
+    <labl>2003</labl>
+  </catgry>
+  <catgry>
+    <catValu>2004</catValu>
+    <labl>2004</labl>
+  </catgry>
+  <catgry>
+    <catValu>2005</catValu>
+    <labl>2005</labl>
+  </catgry>
+  <catgry>
+    <catValu>2006</catValu>
+    <labl>2006</labl>
+  </catgry>
+  <catgry>
+    <catValu>2007</catValu>
+    <labl>2007</labl>
+  </catgry>
+  <catgry>
+    <catValu>2008</catValu>
+    <labl>2008</labl>
+  </catgry>
+  <catgry>
+    <catValu>2009</catValu>
+    <labl>2009</labl>
+  </catgry>
+  <catgry>
+    <catValu>2010</catValu>
+    <labl>2010</labl>
+  </catgry>
+  <catgry>
+    <catValu>2011</catValu>
+    <labl>2011</labl>
+  </catgry>
+  <catgry>
+    <catValu>2012</catValu>
+    <labl>2012</labl>
+  </catgry>
+  <catgry>
+    <catValu>2013</catValu>
+    <labl>2013</labl>
+  </catgry>
+  <catgry>
+    <catValu>2014</catValu>
+    <labl>2014</labl>
+  </catgry>
+  <catgry>
+    <catValu>2015</catValu>
+    <labl>2015</labl>
+  </catgry>
+  <catgry>
+    <catValu>2016</catValu>
+    <labl>2016</labl>
+  </catgry>
+  <catgry>
+    <catValu>2017</catValu>
+    <labl>2017</labl>
+  </catgry>
+  <catgry>
+    <catValu>2018</catValu>
+    <labl>2018</labl>
+  </catgry>
+  <catgry>
+    <catValu>2019</catValu>
+    <labl>2019</labl>
+  </catgry>
+  <catgry>
+    <catValu>2020</catValu>
+    <labl>2020</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="URBAN" dcml="0" files="ExtractData" intrvl="discrete" name="URBAN">
+  <location EndPos="8" StartPos="8" width="1"/>
+  <labl>Urban-rural status</labl>
+  <txt><![CDATA[URBAN indicates whether the household was located in a place designated as urban or as rural.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Rural</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Urban</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">Geography: Global Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PERWT" dcml="2" files="ExtractData" intrvl="contin" name="PERWT">
+  <location EndPos="16" StartPos="9" width="8"/>
+  <labl>Person weight</labl>
+  <txt><![CDATA[PERWT indicates the number of persons in the actual population represented by the person in the sample.
+
+For the samples that are truly weighted (see the comparability discussion), PERWT must be used to yield accurate statistics for the population.
+
+NOTE: PERWT has 2 implied decimal places.  That is, the last two digits of the eight-digit variable are decimal digits, but there is no actual decimal in the data.]]></txt>
+  <codInstr><![CDATA[PERWT is an 8-digit numeric variable with 2 implied decimal places. See the variable description.]]></codInstr>
+  <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="AGE" dcml="0" files="ExtractData" intrvl="discrete" name="AGE">
+  <location EndPos="19" StartPos="17" width="3"/>
+  <labl>Age</labl>
+  <txt><![CDATA[AGE gives age in years as of the person's last birthday prior to or on the day of enumeration.]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>Less than 1 year</labl>
+  </catgry>
+  <catgry>
+    <catValu>001</catValu>
+    <labl>1 year</labl>
+  </catgry>
+  <catgry>
+    <catValu>002</catValu>
+    <labl>2 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>003</catValu>
+    <labl>3</labl>
+  </catgry>
+  <catgry>
+    <catValu>004</catValu>
+    <labl>4</labl>
+  </catgry>
+  <catgry>
+    <catValu>005</catValu>
+    <labl>5</labl>
+  </catgry>
+  <catgry>
+    <catValu>006</catValu>
+    <labl>6</labl>
+  </catgry>
+  <catgry>
+    <catValu>007</catValu>
+    <labl>7</labl>
+  </catgry>
+  <catgry>
+    <catValu>008</catValu>
+    <labl>8</labl>
+  </catgry>
+  <catgry>
+    <catValu>009</catValu>
+    <labl>9</labl>
+  </catgry>
+  <catgry>
+    <catValu>010</catValu>
+    <labl>10</labl>
+  </catgry>
+  <catgry>
+    <catValu>011</catValu>
+    <labl>11</labl>
+  </catgry>
+  <catgry>
+    <catValu>012</catValu>
+    <labl>12</labl>
+  </catgry>
+  <catgry>
+    <catValu>013</catValu>
+    <labl>13</labl>
+  </catgry>
+  <catgry>
+    <catValu>014</catValu>
+    <labl>14</labl>
+  </catgry>
+  <catgry>
+    <catValu>015</catValu>
+    <labl>15</labl>
+  </catgry>
+  <catgry>
+    <catValu>016</catValu>
+    <labl>16</labl>
+  </catgry>
+  <catgry>
+    <catValu>017</catValu>
+    <labl>17</labl>
+  </catgry>
+  <catgry>
+    <catValu>018</catValu>
+    <labl>18</labl>
+  </catgry>
+  <catgry>
+    <catValu>019</catValu>
+    <labl>19</labl>
+  </catgry>
+  <catgry>
+    <catValu>020</catValu>
+    <labl>20</labl>
+  </catgry>
+  <catgry>
+    <catValu>021</catValu>
+    <labl>21</labl>
+  </catgry>
+  <catgry>
+    <catValu>022</catValu>
+    <labl>22</labl>
+  </catgry>
+  <catgry>
+    <catValu>023</catValu>
+    <labl>23</labl>
+  </catgry>
+  <catgry>
+    <catValu>024</catValu>
+    <labl>24</labl>
+  </catgry>
+  <catgry>
+    <catValu>025</catValu>
+    <labl>25</labl>
+  </catgry>
+  <catgry>
+    <catValu>026</catValu>
+    <labl>26</labl>
+  </catgry>
+  <catgry>
+    <catValu>027</catValu>
+    <labl>27</labl>
+  </catgry>
+  <catgry>
+    <catValu>028</catValu>
+    <labl>28</labl>
+  </catgry>
+  <catgry>
+    <catValu>029</catValu>
+    <labl>29</labl>
+  </catgry>
+  <catgry>
+    <catValu>030</catValu>
+    <labl>30</labl>
+  </catgry>
+  <catgry>
+    <catValu>031</catValu>
+    <labl>31</labl>
+  </catgry>
+  <catgry>
+    <catValu>032</catValu>
+    <labl>32</labl>
+  </catgry>
+  <catgry>
+    <catValu>033</catValu>
+    <labl>33</labl>
+  </catgry>
+  <catgry>
+    <catValu>034</catValu>
+    <labl>34</labl>
+  </catgry>
+  <catgry>
+    <catValu>035</catValu>
+    <labl>35</labl>
+  </catgry>
+  <catgry>
+    <catValu>036</catValu>
+    <labl>36</labl>
+  </catgry>
+  <catgry>
+    <catValu>037</catValu>
+    <labl>37</labl>
+  </catgry>
+  <catgry>
+    <catValu>038</catValu>
+    <labl>38</labl>
+  </catgry>
+  <catgry>
+    <catValu>039</catValu>
+    <labl>39</labl>
+  </catgry>
+  <catgry>
+    <catValu>040</catValu>
+    <labl>40</labl>
+  </catgry>
+  <catgry>
+    <catValu>041</catValu>
+    <labl>41</labl>
+  </catgry>
+  <catgry>
+    <catValu>042</catValu>
+    <labl>42</labl>
+  </catgry>
+  <catgry>
+    <catValu>043</catValu>
+    <labl>43</labl>
+  </catgry>
+  <catgry>
+    <catValu>044</catValu>
+    <labl>44</labl>
+  </catgry>
+  <catgry>
+    <catValu>045</catValu>
+    <labl>45</labl>
+  </catgry>
+  <catgry>
+    <catValu>046</catValu>
+    <labl>46</labl>
+  </catgry>
+  <catgry>
+    <catValu>047</catValu>
+    <labl>47</labl>
+  </catgry>
+  <catgry>
+    <catValu>048</catValu>
+    <labl>48</labl>
+  </catgry>
+  <catgry>
+    <catValu>049</catValu>
+    <labl>49</labl>
+  </catgry>
+  <catgry>
+    <catValu>050</catValu>
+    <labl>50</labl>
+  </catgry>
+  <catgry>
+    <catValu>051</catValu>
+    <labl>51</labl>
+  </catgry>
+  <catgry>
+    <catValu>052</catValu>
+    <labl>52</labl>
+  </catgry>
+  <catgry>
+    <catValu>053</catValu>
+    <labl>53</labl>
+  </catgry>
+  <catgry>
+    <catValu>054</catValu>
+    <labl>54</labl>
+  </catgry>
+  <catgry>
+    <catValu>055</catValu>
+    <labl>55</labl>
+  </catgry>
+  <catgry>
+    <catValu>056</catValu>
+    <labl>56</labl>
+  </catgry>
+  <catgry>
+    <catValu>057</catValu>
+    <labl>57</labl>
+  </catgry>
+  <catgry>
+    <catValu>058</catValu>
+    <labl>58</labl>
+  </catgry>
+  <catgry>
+    <catValu>059</catValu>
+    <labl>59</labl>
+  </catgry>
+  <catgry>
+    <catValu>060</catValu>
+    <labl>60</labl>
+  </catgry>
+  <catgry>
+    <catValu>061</catValu>
+    <labl>61</labl>
+  </catgry>
+  <catgry>
+    <catValu>062</catValu>
+    <labl>62</labl>
+  </catgry>
+  <catgry>
+    <catValu>063</catValu>
+    <labl>63</labl>
+  </catgry>
+  <catgry>
+    <catValu>064</catValu>
+    <labl>64</labl>
+  </catgry>
+  <catgry>
+    <catValu>065</catValu>
+    <labl>65</labl>
+  </catgry>
+  <catgry>
+    <catValu>066</catValu>
+    <labl>66</labl>
+  </catgry>
+  <catgry>
+    <catValu>067</catValu>
+    <labl>67</labl>
+  </catgry>
+  <catgry>
+    <catValu>068</catValu>
+    <labl>68</labl>
+  </catgry>
+  <catgry>
+    <catValu>069</catValu>
+    <labl>69</labl>
+  </catgry>
+  <catgry>
+    <catValu>070</catValu>
+    <labl>70</labl>
+  </catgry>
+  <catgry>
+    <catValu>071</catValu>
+    <labl>71</labl>
+  </catgry>
+  <catgry>
+    <catValu>072</catValu>
+    <labl>72</labl>
+  </catgry>
+  <catgry>
+    <catValu>073</catValu>
+    <labl>73</labl>
+  </catgry>
+  <catgry>
+    <catValu>074</catValu>
+    <labl>74</labl>
+  </catgry>
+  <catgry>
+    <catValu>075</catValu>
+    <labl>75</labl>
+  </catgry>
+  <catgry>
+    <catValu>076</catValu>
+    <labl>76</labl>
+  </catgry>
+  <catgry>
+    <catValu>077</catValu>
+    <labl>77</labl>
+  </catgry>
+  <catgry>
+    <catValu>078</catValu>
+    <labl>78</labl>
+  </catgry>
+  <catgry>
+    <catValu>079</catValu>
+    <labl>79</labl>
+  </catgry>
+  <catgry>
+    <catValu>080</catValu>
+    <labl>80</labl>
+  </catgry>
+  <catgry>
+    <catValu>081</catValu>
+    <labl>81</labl>
+  </catgry>
+  <catgry>
+    <catValu>082</catValu>
+    <labl>82</labl>
+  </catgry>
+  <catgry>
+    <catValu>083</catValu>
+    <labl>83</labl>
+  </catgry>
+  <catgry>
+    <catValu>084</catValu>
+    <labl>84</labl>
+  </catgry>
+  <catgry>
+    <catValu>085</catValu>
+    <labl>85</labl>
+  </catgry>
+  <catgry>
+    <catValu>086</catValu>
+    <labl>86</labl>
+  </catgry>
+  <catgry>
+    <catValu>087</catValu>
+    <labl>87</labl>
+  </catgry>
+  <catgry>
+    <catValu>088</catValu>
+    <labl>88</labl>
+  </catgry>
+  <catgry>
+    <catValu>089</catValu>
+    <labl>89</labl>
+  </catgry>
+  <catgry>
+    <catValu>090</catValu>
+    <labl>90</labl>
+  </catgry>
+  <catgry>
+    <catValu>091</catValu>
+    <labl>91</labl>
+  </catgry>
+  <catgry>
+    <catValu>092</catValu>
+    <labl>92</labl>
+  </catgry>
+  <catgry>
+    <catValu>093</catValu>
+    <labl>93</labl>
+  </catgry>
+  <catgry>
+    <catValu>094</catValu>
+    <labl>94</labl>
+  </catgry>
+  <catgry>
+    <catValu>095</catValu>
+    <labl>95</labl>
+  </catgry>
+  <catgry>
+    <catValu>096</catValu>
+    <labl>96</labl>
+  </catgry>
+  <catgry>
+    <catValu>097</catValu>
+    <labl>97</labl>
+  </catgry>
+  <catgry>
+    <catValu>098</catValu>
+    <labl>98</labl>
+  </catgry>
+  <catgry>
+    <catValu>099</catValu>
+    <labl>99</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>100+</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Not reported/missing</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographic Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SEX" dcml="0" files="ExtractData" intrvl="discrete" name="SEX">
+  <location EndPos="20" StartPos="20" width="1"/>
+  <labl>Sex</labl>
+  <txt><![CDATA[SEX reports the sex (gender) of the respondent.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Male</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Female</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographic Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EDATTAIN" dcml="0" files="ExtractData" intrvl="discrete" name="EDATTAIN">
+  <location EndPos="21" StartPos="21" width="1"/>
+  <labl>Educational attainment, international recode [general version]</labl>
+  <txt><![CDATA[EDATTAIN records the person's educational attainment in terms of the level of schooling completed (degree or other milestone). The emphasis on level completed is critical: a person attending the final year of secondary education receives the code for having completed lower secondary only -- and in some samples only primary. 
+
+EDATTAIN does not necessarily reflect any particular country's definition of the various levels of schooling in terms of terminology or the number of years of schooling.  EDATTAIN is an attempt to merge -- into a single, roughly comparable variable -- samples that provide degrees, ones that provide actual years of schooling, and those that have some of both. In addition to EDATTAIN, a country-specific education classification is provided which loses no information and reflects the particular educational system of that country (for example EDUCBR for Brazil, EDUCCL for Chile, and EDUCUS for the United States).  As always, users can refer to the original education source variables for each sample, if they wish.
+
+Many samples also give single years of schooling completed, recorded in YRSCHOOL. Some samples provide educational information in a form that could not be incorporated into EDATTAIN.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Less than primary completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Primary completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Secondary completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>University completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EDATTAIND" dcml="0" files="ExtractData" intrvl="discrete" name="EDATTAIND">
+  <location EndPos="24" StartPos="22" width="3"/>
+  <labl>Educational attainment, international recode [detailed version]</labl>
+  <txt><![CDATA[EDATTAIN records the person's educational attainment in terms of the level of schooling completed (degree or other milestone). The emphasis on level completed is critical: a person attending the final year of secondary education receives the code for having completed lower secondary only -- and in some samples only primary. 
+
+EDATTAIN does not necessarily reflect any particular country's definition of the various levels of schooling in terms of terminology or the number of years of schooling.  EDATTAIN is an attempt to merge -- into a single, roughly comparable variable -- samples that provide degrees, ones that provide actual years of schooling, and those that have some of both. In addition to EDATTAIN, a country-specific education classification is provided which loses no information and reflects the particular educational system of that country (for example EDUCBR for Brazil, EDUCCL for Chile, and EDUCUS for the United States).  As always, users can refer to the original education source variables for each sample, if they wish.
+
+Many samples also give single years of schooling completed, recorded in YRSCHOOL. Some samples provide educational information in a form that could not be incorporated into EDATTAIN.]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>Less than primary completed (n.s.)</labl>
+  </catgry>
+  <catgry>
+    <catValu>110</catValu>
+    <labl>No schooling</labl>
+  </catgry>
+  <catgry>
+    <catValu>120</catValu>
+    <labl>Some primary completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>130</catValu>
+    <labl>Primary (4 yrs) completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>211</catValu>
+    <labl>Primary (5 yrs) completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>212</catValu>
+    <labl>Primary (6 yrs) completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>221</catValu>
+    <labl>Lower secondary general completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>222</catValu>
+    <labl>Lower secondary technical completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>311</catValu>
+    <labl>Secondary, general track completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>312</catValu>
+    <labl>Some college completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>320</catValu>
+    <labl>Secondary or post-secondary technical completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>321</catValu>
+    <labl>Secondary, technical track completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>322</catValu>
+    <labl>Post-secondary technical education</labl>
+  </catgry>
+  <catgry>
+    <catValu>400</catValu>
+    <labl>University completed</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Unknown/missing</labl>
+  </catgry>
+  <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EMPSTAT" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTAT">
+  <location EndPos="25" StartPos="25" width="1"/>
+  <labl>Activity status (employment status) [general version]</labl>
+  <txt><![CDATA[EMPSTAT indicates whether or not the respondent was part of the labor force -- working or seeking work -- over a specified period of time. Depending on the sample, EMPSTAT can also convey further information.
+
+The first digit of EMPSTAT is fully comparable, and classifies the population into three groups: employed, unemployed, and inactive. The combination of employed and unemployed yields the total labor force. The second and third digits of EMPSTAT preserve additional information available for some countries and census years but not for others.
+
+Employment status is sometimes referred to in other sources as "activity status".]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Employed</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Unemployed</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Inactive</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown/missing</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EMPSTATD" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTATD">
+  <location EndPos="28" StartPos="26" width="3"/>
+  <labl>Activity status (employment status) [detailed version]</labl>
+  <txt><![CDATA[EMPSTAT indicates whether or not the respondent was part of the labor force -- working or seeking work -- over a specified period of time. Depending on the sample, EMPSTAT can also convey further information.
+
+The first digit of EMPSTAT is fully comparable, and classifies the population into three groups: employed, unemployed, and inactive. The combination of employed and unemployed yields the total labor force. The second and third digits of EMPSTAT preserve additional information available for some countries and census years but not for others.
+
+Employment status is sometimes referred to in other sources as "activity status".]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>Employed, not specified</labl>
+  </catgry>
+  <catgry>
+    <catValu>110</catValu>
+    <labl>At work</labl>
+  </catgry>
+  <catgry>
+    <catValu>111</catValu>
+    <labl>At work, and 'student'</labl>
+  </catgry>
+  <catgry>
+    <catValu>112</catValu>
+    <labl>At work, and 'housework'</labl>
+  </catgry>
+  <catgry>
+    <catValu>113</catValu>
+    <labl>At work, and 'seeking work'</labl>
+  </catgry>
+  <catgry>
+    <catValu>114</catValu>
+    <labl>At work, and 'retired'</labl>
+  </catgry>
+  <catgry>
+    <catValu>115</catValu>
+    <labl>At work, and 'no work'</labl>
+  </catgry>
+  <catgry>
+    <catValu>116</catValu>
+    <labl>At work, and other situation</labl>
+  </catgry>
+  <catgry>
+    <catValu>117</catValu>
+    <labl>At work, family holding, not specified</labl>
+  </catgry>
+  <catgry>
+    <catValu>118</catValu>
+    <labl>At work, family holding, not agricultural</labl>
+  </catgry>
+  <catgry>
+    <catValu>119</catValu>
+    <labl>At work, family holding, agricultural</labl>
+  </catgry>
+  <catgry>
+    <catValu>120</catValu>
+    <labl>Have job, not at work in reference period</labl>
+  </catgry>
+  <catgry>
+    <catValu>130</catValu>
+    <labl>Armed forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>131</catValu>
+    <labl>Armed forces, at work</labl>
+  </catgry>
+  <catgry>
+    <catValu>132</catValu>
+    <labl>Armed forces, not at work in reference period</labl>
+  </catgry>
+  <catgry>
+    <catValu>133</catValu>
+    <labl>Military trainee</labl>
+  </catgry>
+  <catgry>
+    <catValu>140</catValu>
+    <labl>Marginally employed</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>Unemployed, not specified</labl>
+  </catgry>
+  <catgry>
+    <catValu>201</catValu>
+    <labl>Unemployed 6 or more months</labl>
+  </catgry>
+  <catgry>
+    <catValu>202</catValu>
+    <labl>Worked fewer than 6 months, permanent job</labl>
+  </catgry>
+  <catgry>
+    <catValu>203</catValu>
+    <labl>Worked fewer than 6 months, temporary job</labl>
+  </catgry>
+  <catgry>
+    <catValu>210</catValu>
+    <labl>Unemployed, experienced worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>220</catValu>
+    <labl>Unemployed, new worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>230</catValu>
+    <labl>No work available</labl>
+  </catgry>
+  <catgry>
+    <catValu>240</catValu>
+    <labl>Inactive unemployed</labl>
+  </catgry>
+  <catgry>
+    <catValu>300</catValu>
+    <labl>Inactive (not in labor force)</labl>
+  </catgry>
+  <catgry>
+    <catValu>310</catValu>
+    <labl>Housework</labl>
+  </catgry>
+  <catgry>
+    <catValu>320</catValu>
+    <labl>Unable to work, disabled or health reasons</labl>
+  </catgry>
+  <catgry>
+    <catValu>321</catValu>
+    <labl>Permanent disability</labl>
+  </catgry>
+  <catgry>
+    <catValu>322</catValu>
+    <labl>Temporary illness</labl>
+  </catgry>
+  <catgry>
+    <catValu>323</catValu>
+    <labl>Disabled or imprisoned</labl>
+  </catgry>
+  <catgry>
+    <catValu>330</catValu>
+    <labl>In school</labl>
+  </catgry>
+  <catgry>
+    <catValu>340</catValu>
+    <labl>Retirees and living on rent</labl>
+  </catgry>
+  <catgry>
+    <catValu>341</catValu>
+    <labl>Living on rents</labl>
+  </catgry>
+  <catgry>
+    <catValu>342</catValu>
+    <labl>Living on rents or pension</labl>
+  </catgry>
+  <catgry>
+    <catValu>343</catValu>
+    <labl>Retirees/pensioners</labl>
+  </catgry>
+  <catgry>
+    <catValu>344</catValu>
+    <labl>Retired</labl>
+  </catgry>
+  <catgry>
+    <catValu>345</catValu>
+    <labl>Pensioner</labl>
+  </catgry>
+  <catgry>
+    <catValu>346</catValu>
+    <labl>Non-retirement pension</labl>
+  </catgry>
+  <catgry>
+    <catValu>347</catValu>
+    <labl>Disability pension</labl>
+  </catgry>
+  <catgry>
+    <catValu>348</catValu>
+    <labl>Retired without benefits</labl>
+  </catgry>
+  <catgry>
+    <catValu>350</catValu>
+    <labl>Elderly</labl>
+  </catgry>
+  <catgry>
+    <catValu>351</catValu>
+    <labl>Elderly or disabled</labl>
+  </catgry>
+  <catgry>
+    <catValu>360</catValu>
+    <labl>Institutionalized</labl>
+  </catgry>
+  <catgry>
+    <catValu>361</catValu>
+    <labl>Prisoner</labl>
+  </catgry>
+  <catgry>
+    <catValu>370</catValu>
+    <labl>Intermittent worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>371</catValu>
+    <labl>Not working, seasonal worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>372</catValu>
+    <labl>Not working, occasional worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>380</catValu>
+    <labl>Other income recipient</labl>
+  </catgry>
+  <catgry>
+    <catValu>390</catValu>
+    <labl>Inactive, other reasons</labl>
+  </catgry>
+  <catgry>
+    <catValu>391</catValu>
+    <labl>Too young to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>392</catValu>
+    <labl>Dependent</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Unknown/missing</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WGCARE" dcml="0" files="ExtractData" intrvl="discrete" name="WGCARE">
+  <location EndPos="29" StartPos="29" width="1"/>
+  <labl>Difficulty with self-care (Washington group)</labl>
+  <txt><![CDATA[WGCARE indicates the person's level of difficulty in caring for herself or himself, related to activities such as dressing or bathing.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>A lot of difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Cannot do at all</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Disability Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WGCOGN" dcml="0" files="ExtractData" intrvl="discrete" name="WGCOGN">
+  <location EndPos="30" StartPos="30" width="1"/>
+  <labl>Difficulty remembering or concentrating (Washington group)</labl>
+  <txt><![CDATA[WGCOGN indicates the person's level of difficulty in remembering or concentrating.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>A lot of difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Cannot do at all</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Disability Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WGCOMM" dcml="0" files="ExtractData" intrvl="discrete" name="WGCOMM">
+  <location EndPos="31" StartPos="31" width="1"/>
+  <labl>Difficulty communicating (Washington group)</labl>
+  <txt><![CDATA[WGCOMM indicates the person's level of difficulty in communicating, related to being understood or understanding, even in a usual language.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>A lot of difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Cannot do at all</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Disability Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WGHEAR" dcml="0" files="ExtractData" intrvl="discrete" name="WGHEAR">
+  <location EndPos="32" StartPos="32" width="1"/>
+  <labl>Difficulty hearing (Washington group)</labl>
+  <txt><![CDATA[WGHEAR indicates the person's level of difficulty in hearing, even if using a hearing aid.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>A lot of difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Cannot do at all</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Disability Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WGMOBIL" dcml="0" files="ExtractData" intrvl="discrete" name="WGMOBIL">
+  <location EndPos="33" StartPos="33" width="1"/>
+  <labl>Difficulty walking or climbing stairs (Washington group)</labl>
+  <txt><![CDATA[WGMOBIL indicates the person's level of difficulty in walking or climbing stairs.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>A lot of difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Cannot do at all</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Disability Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WGVISION" dcml="0" files="ExtractData" intrvl="discrete" name="WGVISION">
+  <location EndPos="34" StartPos="34" width="1"/>
+  <labl>Difficulty seeing (Washington group)</labl>
+  <txt><![CDATA[WGVISION indicates the person's level of difficulty in seeing, even while wearing glasses.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Some difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>A lot of difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Cannot do at all</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>NIU (not in universe)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Disability Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+</dataDscr>
+</codeBook>

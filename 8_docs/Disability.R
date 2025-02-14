@@ -12,6 +12,8 @@ library(dplyr)
 #setwd("~/Users/erickbautista/Downloads/WBG ")
 ddi <- read_ipums_ddi("/Users/erickbautista/Downloads/WBG/ipumsi_00014.xml")
 rawdata <- read_ipums_micro(ddi)
+
+
 nrow(rawdata)
 head(rawdata)
 as_factor(rawdata)

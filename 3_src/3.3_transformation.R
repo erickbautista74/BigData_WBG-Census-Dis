@@ -1,6 +1,8 @@
 # Load cleaned data
 cleaned_data <- readRDS("1_data/1.2_cleaned/cleaned_data.RDS")
 
+head(cleaned_data)
+
 # Recode disability categories
 convert_disability <- function(x) {
   ifelse(x == 1 | x == 2, 0,

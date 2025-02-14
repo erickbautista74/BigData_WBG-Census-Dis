@@ -11,4 +11,4 @@ ddi <- read_ipums_ddi("/Users/erickbautista/Data/BigData_WBG-Census-Dis/ipumsi_0
 rawdata <- read_ipums_micro(ddi)
 
 # Save raw data for later steps
-saveRDS(rawdata, "1_data/1.1_raw/rawdata.RDS")
+#saveRDS(rawdata, "1_data/1.1_raw/rawdata.RDS")
