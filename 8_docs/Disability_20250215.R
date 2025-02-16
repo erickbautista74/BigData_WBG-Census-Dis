@@ -24,33 +24,6 @@ rawData <- read_ipums_micro(ddi)
 # --------------------------------------------------------------------------------------------------------------------
 # 2. DATA EXPLORATION
 # --------------------------------------------------------------------------------------------------------------------
-# Create a subset ensuring all countries and years are included
-#subset_data <- rawData %>%
-#  group_by(COUNTRY, YEAR) %>%
-#  sample_n(size = min(100, n()), replace = FALSE)  # Sample up to 100 per country-year
-
-# Save subset to a smaller file
-setwd("~/Dropbox/98. GitHub/BigData_WBG-Census-Dis")
-saveRDS(subset_data, "1_data/1.1_raw/subset_rawdata.RDS")
-
-# (Optional) Save as CSV for review
-write.csv(subset_data, "1_data/1.1_raw/subset_rawdata.csv", row.names = FALSE)
-
-# Print summary
-cat("\nSubset created successfully!")
-cat("\nTotal rows in subset:", nrow(subset_data))
-cat("\nUnique countries:", length(unique(subset_data$COUNTRY)))
-cat("\nUnique years:", length(unique(subset_data$YEAR)))
-
-# ==========
-rawdata_bk <- rawData
-rawData <-  subset_data
-rm(subset_data)
-# =========
-
-# --------------------------------------------------------------------------------------------------------------------
-# 2. DATA EXPLORATION
-# --------------------------------------------------------------------------------------------------------------------
 str(rawData)
 names(rawData)
 rawDataRows <- nrow(rawData)
@@ -101,6 +74,7 @@ country <- subset(rawData, (rawData$COUNTRY==countryID & rawData$YEAR==countryYe
 
 head(country,5)
 summary(country)
+nrow(country)
 #country_0.03 <- nrow(country)*.03
 #print(country_0.03)
 
@@ -381,6 +355,7 @@ countryTotal[3:9] <- round(countryTotal[3:9], 0)
 print(countryTotal)
 
 rm(disability_cols,country_0,country_1,country_NA)
+gc()
 # --------------------------------------------------------------------------------------------------------------------
 # 3.14 Age 
 # Define age intervals (bins)
@@ -421,7 +396,7 @@ rm(range_age,country_num,country_den,country_per)
 # Print final structured output
 print(country_Age_Chart)
 rm(disability_cols)
-
+gc()
 # --------------------------------------------------------------------------------------------------------------------
 # 3.15 Education 
 # Define disability columns
@@ -456,8 +431,8 @@ country_Edu_Chart <- country_num %>%
 
 # Print final structured output
 print(country_Edu_Chart)
-rm(disability_cols,range_age,country_num,country_den,country_per)
-
+rm(disability_cols,country_num,country_den,country_per)
+gc()
 # --------------------------------------------------------------------------------------------------------------------
 # 3.16 Employment
 # Define disability columns
@@ -494,6 +469,7 @@ country_Emp_Chart <- country_num %>%
 # Print final structured output
 print(country_Emp_Chart)
 rm(disability_cols,country_num, country_den, country_per)
+gc()
 # --------------------------------------------------------------------------------------------------------------------
 # 3.17 Sex
 # Define disability columns
@@ -530,7 +506,7 @@ country_Sex_Chart <- country_num %>%
 # Print final structured output
 print(country_Sex_Chart)
 rm(disability_cols,country_num, country_den, country_per)
-
+gc()
 # --------------------------------------------------------------------------------------------------------------------
 # 3.18 Urban
 # Define disability columns
@@ -570,7 +546,7 @@ print(country_Urb_Chart)
 
 # Remove temporary variables and free memory
 rm(disability_cols,country_num, country_den, country_per)
-
+gc()
 
 # --------------------------------------------------------------------------------------------------------------------
 # 3.19 print Charts
